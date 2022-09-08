@@ -10,7 +10,7 @@ class MiniCurrencyConverter(object):
         us_rate = 422.0 # 1 USD = 422 Naira 
         naira_rate = 0
         # get user input 
-        print("******************************")
+        print("******************************") # this is just for fancy, ignore it 
         try:
             aud_input = float(input("Enter Amount in AUD: ")) # casting the input to float 
         except ValueError:
